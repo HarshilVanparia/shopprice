@@ -49,8 +49,11 @@ app.*.map.json
 lib/firebase_options.dart
 lib/services/cloudinary_service.dart
 build.log
-firebase_rules.txt
-FIRESTORE_RULES_FIXED.txt
-FIRESTORE_SECURITY_RULES.txt
-QUICKSTART.md
-README.md
+
+*.md
+*.txt
+# firebase_rules.txt
+# FIRESTORE_RULES_FIXED.txt
+# FIRESTORE_SECURITY_RULES.txt
+# QUICKSTART.md
+# README.md
