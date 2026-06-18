@@ -1,0 +1,18 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Open access for demo / Firestore-only phone/password auth
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Open access for demo
+    match /{allPaths=**} {
+      allow read, write: if true;
+    }
+  }
+}
