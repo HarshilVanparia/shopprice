@@ -9,7 +9,7 @@ class AppStrings {
   static const String invalidEmail = 'Please enter a valid phone number (10+ digits)';
   static const String invalidPassword = 'Password must be at least 6 characters';
   static const String loginError = 'Login failed. Please try again.';
-  static const String demoEmail = '9876543210';
+  static const String demoEmail = '9876543212';
   static const String demoPassword = 'admin123';
 
   // Navigation
